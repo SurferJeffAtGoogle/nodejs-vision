@@ -12,3 +12,6 @@ system-test/*key.json
 __pycache__
 package-lock.json
 .vscode
+# bazel output
+bazel-*
+.pytest_cache/
