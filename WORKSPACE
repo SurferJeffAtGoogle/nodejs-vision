@@ -1,6 +1,7 @@
 workspace(name = "nodejs_vision")
 
 load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
+load("//:macros.bzl", "jeff")
 
 git_repository(
     name = "synthtool",
@@ -12,3 +13,4 @@ git_repository(
 #     name = "synthtool",
 #     path = "../synthtool"
 # )
+
